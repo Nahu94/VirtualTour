@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-1",
-      "name": "1",
+      "name": "Living",
       "levels": [
         {
           "tileSize": 256,
@@ -47,7 +47,7 @@ var APP_DATA = {
     },
     {
       "id": "1-2",
-      "name": "2",
+      "name": "Pasillo",
       "levels": [
         {
           "tileSize": 256,
@@ -82,6 +82,51 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": []
+    },
+    {
+      "id": "2-3",
+      "name": "Living2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -1.761357785941211,
+        "pitch": 0.3259947265103804,
+        "fov": 1.2809123973965084
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.019932237261062,
+          "pitch": -0.46598917158187625,
+          "rotation": 0,
+          "target": "1-2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.3411145837534981,
+          "pitch": 0.9623855765981304,
+          "title": "Manchita",
+          "text": "El mejor perro del mundo"
+        }
+      ]
     }
   ],
   "name": "Casa Test",
