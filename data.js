@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-1",
-      "name": "Living",
+      "name": "1",
       "levels": [
         {
           "tileSize": 256,
@@ -47,7 +47,7 @@ var APP_DATA = {
     },
     {
       "id": "1-2",
-      "name": "Pasillo",
+      "name": "2",
       "levels": [
         {
           "tileSize": 256,
@@ -75,6 +75,12 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
+          "yaw": 2.16394527756742505,
+          "pitch": 0.5914221025159776,
+          "rotation": 0,
+          "target": "0-1"
+        },
+        {
           "yaw": 0.16394527756742505,
           "pitch": 0.5914221025159776,
           "rotation": 0,
@@ -85,7 +91,7 @@ var APP_DATA = {
     },
     {
       "id": "2-3",
-      "name": "Living2",
+      "name": "3",
       "levels": [
         {
           "tileSize": 256,
@@ -117,11 +123,17 @@ var APP_DATA = {
           "pitch": -0.46598917158187625,
           "rotation": 0,
           "target": "1-2"
+        },
+        {
+          "yaw": 0.16394527756742505,
+          "pitch": 0.5914221025159776,
+          "rotation": 0,
+          "target": "1-2"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.3411145837534981,
+          "yaw": -1.3411145837534981,
           "pitch": 0.9623855765981304,
           "title": "Manchita",
           "text": "El mejor perro del mundo"
